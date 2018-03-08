@@ -1,0 +1,41 @@
+.scroll {
+  margin-top: 13vh;
+}
+
+.scrollbar {
+  width: 1em;
+  height: 75vh;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  background-color: #484848;
+}
+
+.scroller {
+  width: 1em;
+  height: 1em;
+  color: #00BFB2;
+  position:fixed;
+}
+
+.image {
+  width: inherit;
+  height: 20em;
+}
+
+.active {
+  color: #00BFB2;
+}
+
+.list {
+  margin-bottom: 20em;
+  font-family: 'Rozha One', serif;
+}
+
+@media(max-width: 767px) {
+  .scroll {
+    display: none;
+  }
+  .container-fluid {
+    padding: 0;
+  }
+}

@@ -17,7 +17,7 @@ class Navbar extends React.Component {
 
   render() {
     return (
-      <nav className="navbar navbar-expand-lg navbar-light">
+      <nav className="navbar navbar-expand-lg navbar-light fixed-top">
         <a className="navbar-brand" href="/">Lee Ma</a>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
@@ -36,13 +36,14 @@ class Navbar extends React.Component {
           </ul>
           <ul className="navbar-nav ml-auto">
             <a className="nav-item nav-resume" onMouseOver={this.mouseOver.bind(this)} onMouseOut = {this.mouseOut.bind(this)} href="#">
-                {
-                  !this.state.hover
-                  ?
-                  <span><i className="fas fa-file-alt"></i><i className="fas fa-arrow-alt-circle-down" style={{display: "none"}}></i> Resume</span>
-                  :
-                  <span><i className="fas fa-arrow-alt-circle-down"></i><i className="fas fa-file-alt" style={{display: "none"}}></i> Download</span>
-                }
+              <i className="fas fa-file-alt hover-hidden"></i><i className="fas fa-arrow-alt-circle-down hover-show"></i>
+              {
+                !this.state.hover
+                ?
+                <span> Resume</span>
+                :
+                <span> Download</span>
+              }
             </a>
           </ul>
         </div>

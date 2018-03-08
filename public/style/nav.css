@@ -13,7 +13,8 @@ nav {
   margin-left: 2.5em;
   margin-top: 0.4em;
   color: #616161;
-  font-size: 1.2em;
+  font-size: 1.25em;
+  font-family: 'Rozha One', serif;
 }
 .navbar-light:hover .navbar-nav:hover .nav-link:hover {
   color: #00BFB2;

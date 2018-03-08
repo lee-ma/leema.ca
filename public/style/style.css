@@ -1,11 +1,16 @@
 body {
   margin: 0;
   padding: 0;
+  padding-bottom: 15em;
   font-family: 'Open Sans', sans-serif;
 }
 
-.font-code {
-  font-family: monospace;
+.container-fluid {
+  padding: 0 3.05rem;
+}
+
+.font-bitter-landing {
+  font-family: 'Bitter', serif;
   font-size: 1.5em;
   padding: 10px;
   margin-left: 2em;
@@ -16,25 +21,33 @@ body {
   text-decoration: underline;
 }
 
+.font-white {
+  color: #ffffff;
+  float: right;
+  padding-right: 2.5em;
+  margin-top: 10em;
+}
+
 .font-link:hover {
   color: #00BFB2;
 }
 
 .landing-vertical-margin {
-  margin-top: 5%;
+  margin-top: 10%;
 }
 
 h1 {
   font-size: 60px;
   padding: 0;
   font-weight: 700;
+  font-family: 'Rozha One', serif;
 }
 
 h2 {
   font-size: 30px;
   padding: 0;
   font-weight: 400;
-  font-family: monospace;
+  font-family: 'Rozha One', serif;
 }
 
 p {
@@ -57,8 +70,7 @@ p {
   width: 350px;
   background-color: #00BFB2;
   padding: 1% 5%;
-  margin: 2.5em 0.5em 0 1.6em;
-  transition: 0.25s;
+  transition: 0.2s;
 }
 
 .resume-btn:hover {
@@ -66,8 +78,21 @@ p {
   background-color: #373737;
 }
 
+* > .hover-show,
+*:hover > .hover-hidden {
+  display: none;
+}
+
+*:hover > .hover-show {
+  display: inline-block;
+}
+
 .margin-vertical-lg {
   margin-top: 5.5em;
+}
+
+.margin-vertical-sm {
+  margin-top: 0.75em;
 }
 
 .margin-vertical-md {
@@ -76,4 +101,13 @@ p {
 
 .margin-vertical-xl {
   margin-top: 8.5em;
+}
+
+.dropdown-menu {
+  border: none;
+  padding: 0;
+}
+
+.dropdown-item {
+  padding: 0;
 }
