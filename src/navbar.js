@@ -25,17 +25,17 @@ class Navbar extends React.Component {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav">
             <li className="nav-item">
-              <a className="nav-link" href="/projects">Projects</a>
+              <a className={this.props.active === "projects" ? "nav-link active" : "nav-link"} href="/projects">Projects</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">Blog</a>
+              <a className={this.props.active === "blog" ? "nav-link active" : "nav-link"} href="/blog">Blog</a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#">Gallery</a>
             </li>
           </ul>
           <ul className="navbar-nav ml-auto">
-            <a className="nav-item nav-resume" onMouseOver={this.mouseOver.bind(this)} onMouseOut = {this.mouseOut.bind(this)} href="#">
+            <a className="nav-item nav-resume" onMouseOver={this.mouseOver.bind(this)} onMouseOut = {this.mouseOut.bind(this)} href="./assets/leemaresume.pdf">
               <i className="fas fa-file-alt hover-hidden"></i><i className="fas fa-arrow-alt-circle-down hover-show"></i>
               {
                 !this.state.hover

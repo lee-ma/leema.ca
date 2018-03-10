@@ -1,0 +1,26 @@
+.footer {
+  background-color: #ffffff;
+  margin-top: 16.5em;
+  padding-bottom: 1.5em;
+  padding-right: 4em;
+}
+
+.social-icons {
+  color: #484848;
+  margin-left: 2em;
+}
+
+.social-icons:hover {
+  color: #00BFB2;
+}
+
+@media(max-width: 767px){
+  .footer {
+    margin-top: 1em;
+    padding: 0;
+  }
+
+  .col-12 {
+    padding: 0;
+  }
+}

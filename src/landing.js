@@ -18,11 +18,11 @@ class LandingPage extends React.Component {
   render() {
     return (
       <div className="container landing-vertical-margin">
-        <h1>Hello, I'm Lee</h1>
-        <p>I am a Computer Engineering student at the University of Waterloo proficient with building websites using the MERN stack and building mobile apps in Android Studio. While away from my laptop, I can probably be found playing my guitar or at the gym playing badminton.</p>
+        <h1>Lee Ma</h1>
+        <p>Spicy food connoisseur. NBA armchair coach. Coffee Dependant.</p>
         <div className="margin-vertical-md">
           <h2 style={{marginBottom: "1em"}}>No time?</h2>
-          <a className="resume-btn vertical-align" onMouseOver={this.mouseOver.bind(this)} onMouseOut = {this.mouseOut.bind(this)} href="#">
+          <a className="resume-btn vertical-align" onMouseOver={this.mouseOver.bind(this)} onMouseOut = {this.mouseOut.bind(this)} href="./assets/leemaresume.pdf">
             <i className="fas fa-file-alt hover-hidden"></i><i className="fas fa-arrow-alt-circle-down hover-show"></i>
             {
               !this.state.hover
@@ -32,13 +32,12 @@ class LandingPage extends React.Component {
               <span> Download</span>
             }
           </a>
-          <div className="row">
-            <h2 style={{marginTop: "1em"}}>Otherwise, check out </h2><a href="#" style={{marginTop: "1.15em", marginLeft: "2em", fontSize: "1.5em"}} className="dropdown-toggle" role="button" id="siteDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Projects</a>
-            <div class="dropdown-menu" aria-labelledby="siteDropdown">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <a class="dropdown-item" href="#">Something else here</a>
-            </div>
+          <h2 className="margin-vertical-md">Show me:</h2>
+          <div className="margin-vertical-md">
+            <a href="/projects" className="font-link">Projects</a>
+            <a href="/blogs" className="font-link">Blog</a>
+            <a href="#" className="font-link">Gallery</a>
+            <a href="#" className="font-link">Contact</a>
           </div>
         </div>
       </div>

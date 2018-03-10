@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 1000 400" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="background: #F5F5F5;">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-weight="normal">
+        <g id="Artboard">
+            <g id="Group" transform="translate(264.000000, 111.000000)">
+                <text id="Atheneum" font-family="MarckScript-Regular, Marck Script" font-size="120" fill="#00BFB2">
+                    <tspan x="0" y="104">Atheneum</tspan>
+                </text>
+                <text id="Find-a-teacher-for-a" font-family="Cabin-Regular, Cabin" font-size="24" fill="#484848">
+                    <tspan x="11" y="173">Find a teacher for anything you want to learn</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,7 +1,6 @@
 body {
   margin: 0;
   padding: 0;
-  padding-bottom: 15em;
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -10,7 +9,7 @@ body {
 }
 
 .font-bitter-landing {
-  font-family: 'Bitter', serif;
+  font-family: 'Lora', serif;
   font-size: 1.5em;
   padding: 10px;
   margin-left: 2em;
@@ -19,6 +18,8 @@ body {
 .font-link {
   color: #373737;
   text-decoration: underline;
+  margin-right: 5em;
+  font-size: 1.25em;
 }
 
 .font-white {
@@ -40,18 +41,17 @@ h1 {
   font-size: 60px;
   padding: 0;
   font-weight: 700;
-  font-family: 'Rozha One', serif;
+  font-family: 'Lora', serif;
 }
 
 h2 {
   font-size: 30px;
   padding: 0;
   font-weight: 400;
-  font-family: 'Rozha One', serif;
+  font-family: 'Lora', serif;
 }
 
 p {
-  margin-left: 0.25em;
   max-width: 90ch;
   overflow: hidden;
 }
@@ -78,6 +78,11 @@ p {
   background-color: #373737;
 }
 
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+
 * > .hover-show,
 *:hover > .hover-hidden {
   display: none;
@@ -101,13 +106,4 @@ p {
 
 .margin-vertical-xl {
   margin-top: 8.5em;
-}
-
-.dropdown-menu {
-  border: none;
-  padding: 0;
-}
-
-.dropdown-item {
-  padding: 0;
 }

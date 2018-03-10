@@ -10,17 +10,8 @@ class Scroller extends React.Component {
   render() {
     return(
       <div className="scroll">
-        <div className="row">
-          <div className="col-3">
-            <div className="scrollbar">
-              <div><i className="fas fa-arrow-right scroller"></i></div>
-            </div>
-          </div>
-          <div className="col-9 margin-vertical-sm">
-            <p className="list">Elon</p>
-            <p className="list">Jeff</p>
-            <p className="list">Tim</p>
-          </div>
+        <div className="scrollbar">
+          <div className="scroller"><i className="fas fa-arrow-right scroller" style={{width: "2em", height: "2em"}}></i></div>
         </div>
       </div>
     )

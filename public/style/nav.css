@@ -1,6 +1,6 @@
 nav {
-  margin-left: 2em;
-  margin-right: 2em;
+  padding: 0 3.05em 0.5em 3.05em !important;
+  background-color: #fff;
 }
 
 .navbar-light .navbar-brand {
@@ -12,16 +12,23 @@ nav {
 .navbar-light .navbar-nav .nav-link {
   margin-left: 2.5em;
   margin-top: 0.4em;
-  color: #616161;
+  color: #484848;
   font-size: 1.25em;
-  font-family: 'Rozha One', serif;
+  font-family: 'Lora', serif;
+  width: fit-content;
 }
 .navbar-light:hover .navbar-nav:hover .nav-link:hover {
   color: #00BFB2;
 }
 
+.active {
+  color: #00BFB2 !important;
+  border-bottom: 2px solid #00BFB2;
+}
+
 .nav-resume {
-  padding: 0.5em 1.5em;
+  width: fit-content;
+  padding: 0.5em 1em;
   background-color: #00BFB2;
   color: #ffffff;
   font-weight: 600;
@@ -36,11 +43,19 @@ nav {
 }
 
 @media(max-width: 767px) {
-  nav {
-    margin: 0;
+  .navbar-collapse {
+    padding-bottom: 1em;
   }
   .navbar-light .navbar-nav .nav-link {
     margin-left: 0;
     margin-top: 0.4em;
   }
+}
+
+.route-wrapper {
+  position: relative;
+}
+
+.route-wrapper > div {
+  position: absolute;
 }

@@ -1,0 +1,24 @@
+.blog-title {
+  font-family: 'Open Sans', sans-serif;
+  margin-top: 1em;
+  color: #2b2b2b;
+}
+
+.blog-subtitle {
+  color: #616161;
+}
+
+.back-btn {
+  position: fixed;
+  top: 12.5%;
+  left: 4%;
+  padding: 0.25em 1em;
+  color: #ffffff;
+  background-color: #00BFB2;
+}
+
+.back-btn:hover {
+  background-color: #484848;
+  color: #ffffff;
+  text-decoration: none;
+}
