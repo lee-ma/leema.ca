@@ -8,6 +8,7 @@ import Projects from './projects';
 import Blog from './blog';
 import AtheneumBlog from './atheneumblog';
 import Gallery from './gallery';
+import WhosRight from './whosrightblog';
 
 class App extends React.Component{
   render() {
@@ -16,6 +17,7 @@ class App extends React.Component{
         <Switch>
           <Route exact path="/projects" component={Projects}/>
           <Route exact path="/atheneum" component={AtheneumBlog}/>
+          <Route exact path="/whosright" component={WhosRight}/>
           <Route exact path="/blog" component={Blog}/>
           <Route exact path="/gallery" component={Gallery}/>
           <Route exact path="/" component={LandingPage}/>

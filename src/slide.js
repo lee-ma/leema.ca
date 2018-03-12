@@ -13,8 +13,21 @@ class Slide extends React.Component {
               <div style={{float: "right"}}>
                 <ul style={{textAlign: "right", marginRight: "0.75em"}}>
                   <li style={{marginBottom: "2em"}}><a href={`${this.props.post}`} className="slide-links">More info</a></li>
-                  <li style={{marginBottom: "2em"}}><a href="#" className="slide-links">Live example</a></li>
-                  <li><a href="#" className="slide-links">Github</a></li>
+                  {
+                    !this.props.live
+                    ?
+                    <li style={{display: "none"}}></li>
+                    :
+                    <li style={{marginBottom: "2em"}}><a href={`${this.props.live}`} className="slide-links">Live example</a></li>
+                  }
+
+                  {
+                    !this.props.public
+                    ?
+                    <li style={{display: "none"}}></li>
+                    :
+                    <li><a href={`${this.props.github}`} className="slide-links">Github</a></li>
+                  }
                 </ul>
               </div>
               :
