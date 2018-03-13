@@ -13,12 +13,12 @@ class AtheneumBlog extends React.Component {
             <p className="blog-subtitle">Find local teachers for anything you want to learn</p>
             <h3 className="subheader">Quick Summary</h3>
             <p className="blog-body">
-              Atheneum was a website I created with the intention of helping teachers and students in the same city to connect with each other. After creating an account, a teacher could create a new listing that would allow them to advertise a short description of their teaching, a price, and their contact information. Users could then search or browse listings to find a teacher for anything that they wanted to learn.
+              Atheneum is a website I created with the intention of helping teachers and students in the same city to connect with each other. After creating an account, a teacher could create a new listing that would allow them to advertise a short description of their teaching, a price, and their contact information. Users could then search or browse listings to find a teacher for anything that they wanted to learn.
             </p>
             <p className="blog-body">
-              The frontend of this site was created with React and Redux, allowing me to easily put together the profile and listing pages. The listings were put together with a information, teacher, and comment section each created as separate React components. I was easily able to handle the data required for each of these sections using Redux to call the backend APIs with axios and pass on the payload to the React components. This especially made handling user authentication state simple across the application.
+              The frontend of this site was created with React and Redux, allowing me to easily put together the profile and listing pages. The listings were put together with a information, teacher, and comment section each created as separate React components. I was easily able to handle the data required for each of these sections using Redux to call the backend APIs and pass on the payload to the React components. This especially made handling user authentication state simple across the application.
             </p>
-            <div className="frontend">
+            <div>
               <h3 className="subheader">Front-end</h3>
               <p className="blog-body">I began the frontend with the landing page. I would consider myself less experienced when it comes to design, so as I begin out, I look a lot to other places for sources of inspiration. For Atheneum, I was heavily influenced by Airbnb, especially their old landing page with the Airbnb branding, and a search bar. It cut out everything that was unnecessary and made the page incredibly clean and easy to use. I also really loved the way they put the search button inside of the bar. I thought this would be perfect for Atheneum, which led me to create the landing page the way I did.</p>
               <img className="scrnshot" src="./assets/atheneum-pics/landing.png"/>
@@ -49,7 +49,7 @@ class AtheneumBlog extends React.Component {
                 <li>Become better at designing intuitive and beautiful user interfaces</li>
               </ol>
               <span className="blog-ender">
-                A live example of this project can be found at: <a href="http://atheneumtutors.info">http://atheneumtutors.info</a>. Unfortunately, my github repo for this project is private due to me accidentally committing my amazon keys early on in the project (Big whoops). If you would like to discuss anything you’ve read with me, feel free to send me an email at lee.ma@uwaterloo.ca.
+                A live example of this project can be found at: <a href="http://atheneumtutors.info">http://atheneumtutors.info</a>. Unfortunately, my github repo for this project is private due to me accidentally committing my amazon keys early on in the project (Big whoops). If you would like to discuss anything you’ve read with me, feel free to send me an email to <a href="mailto:lee.ma@uwaterloo.ca">lee.ma@uwaterloo.ca</a>.
               </span>
             </div>
           </div>

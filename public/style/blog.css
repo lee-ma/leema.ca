@@ -23,15 +23,6 @@
   text-decoration: none;
 }
 
-@media(max-width: 767px) {
-  .back-btn {
-    position: fixed;
-    top: 2.5%;
-    left: 0%;
-    padding: 0.1em 0.5em;
-  }
-}
-
 .blog-body {
   font-family: "Lora", serif;
   font-size: 16px;
@@ -43,14 +34,30 @@
   font-weight: 600;
 }
 
-.frontend {
-  margin-top: 2.5em;
-}
-
 .scrnshot {
-  width: 75%;
+  width: 85%;
   margin-top: 1em;
   margin-bottom: 1em;
+}
+
+.scrnshot-mob {
+  width: 35%;
+}
+
+@media(max-width: 767px) {
+  .back-btn {
+    position: fixed;
+    top: 2.5%;
+    left: 0%;
+    padding: 0.1em 0.5em;
+  }
+  .scrnshot {
+    width: 100%;
+  }
+
+  .scrnshot-mob {
+    width: 100%;
+  }
 }
 
 .reflection {
