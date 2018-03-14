@@ -3,6 +3,7 @@
   margin-top: 16.5em;
   padding-bottom: 1.5em;
   padding-right: 4em;
+  margin-right: 1em;
 }
 
 .social-icons {
@@ -23,4 +24,13 @@
   .col-12 {
     padding: 0;
   }
+}
+
+.contact-link {
+  color: #484848;
+}
+
+.contact-link:hover {
+  color: #00BFB2;
+  text-decoration: none;
 }

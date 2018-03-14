@@ -10,6 +10,7 @@ import AtheneumBlog from './atheneumblog';
 import Gallery from './gallery';
 import WhosRight from './whosrightblog';
 import DayTrip from './daytrip';
+import Contact from './contact';
 
 class App extends React.Component{
   render() {
@@ -22,6 +23,7 @@ class App extends React.Component{
           <Route exact path="/daytrip" component={DayTrip}/>
           <Route exact path="/blog" component={Blog}/>
           <Route exact path="/gallery" component={Gallery}/>
+          <Route exact path="/about" component={Contact} />
           <Route exact path="/" component={LandingPage}/>
         </Switch>
       </BrowserRouter>

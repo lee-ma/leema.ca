@@ -19,7 +19,7 @@ class LandingPage extends React.Component {
     return (
       <div className="container landing-vertical-margin">
         <h1>Lee Ma</h1>
-        <p>Spicy food connoisseur. NBA armchair coach. Coffee Dependant.</p>
+        <p>Hot sauce afficionado. NBA armchair coach. Aspiring software developer.</p>
         <div className="margin-vertical-md">
           <h2 style={{marginBottom: "1em"}}>No time?</h2>
           <a className="resume-btn vertical-align" onMouseOver={this.mouseOver.bind(this)} onMouseOut = {this.mouseOut.bind(this)} href="./assets/leemaresume.pdf">
@@ -36,8 +36,8 @@ class LandingPage extends React.Component {
           <div className="margin-vertical-md">
             <a href="/projects" className="font-link">Projects</a>
             <a href="/blogs" className="font-link">Blog</a>
-            <a href="#" className="font-link">Gallery</a>
-            <a href="#" className="font-link">Contact</a>
+            <a href="/gallery" className="font-link">Gallery</a>
+            <a href="/about" className="font-link">About</a>
           </div>
         </div>
       </div>

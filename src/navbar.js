@@ -31,7 +31,10 @@ class Navbar extends React.Component {
               <a className={this.props.active === "blog" ? "nav-link active" : "nav-link"} href="/blog">Blog</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">Gallery</a>
+              <a className={this.props.active === "gallery" ? "nav-link active" : "nav-link"} href="/gallery">Gallery</a>
+            </li>
+            <li className="nav-item">
+              <a className={this.props.active === "contact" ? "nav-link active" : "nav-link"} href="/about">About</a>
             </li>
           </ul>
           <ul className="navbar-nav ml-auto">

@@ -72,3 +72,32 @@
   overflow: hidden;
   padding-bottom: 10em;
 }
+
+.gal {
+  margin-top: 7.5em;
+  margin-right: 5em;
+  margin-left: 10em;
+}
+
+.col-12 {
+  width: fit-content !important;
+  overflow-x: hidden;
+}
+
+.row {
+  margin: 0;
+}
+
+.img-fluid {
+  margin-top: 2.5em;
+}
+
+@media(max-width: 767px) {
+  .thumbnail: {
+    width: 375px;
+  }
+
+  .gal-row {
+    margin: 0;
+  }
+}
