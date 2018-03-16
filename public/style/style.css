@@ -9,7 +9,7 @@ body {
 }
 
 .font-bitter-landing {
-  font-family: 'Lora', serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 1.5em;
   padding: 10px;
   margin-left: 2em;
@@ -37,23 +37,31 @@ body {
   margin-top: 10%;
 }
 
+.font-lora {
+  font-family: 'Lora', serif;
+}
+
 h1 {
   font-size: 60px;
   padding: 0;
   font-weight: 700;
-  font-family: 'Lora', serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 h2 {
   font-size: 30px;
   padding: 0;
   font-weight: 400;
-  font-family: 'Lora', serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 p {
   max-width: 90ch;
   overflow: hidden;
+}
+
+a {
+  transition: 0.2s;
 }
 
 .subtitle {

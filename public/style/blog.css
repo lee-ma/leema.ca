@@ -12,9 +12,10 @@
   position: fixed;
   top: 5%;
   left: 4%;
-  padding: 0.25em 1em;
+  padding: 7.5px 25px;
   color: #ffffff;
   background-color: #00BFB2;
+  font-size: 1.25em;
 }
 
 .back-btn:hover {
@@ -32,6 +33,7 @@
 
 .subheader {
   font-weight: 600;
+  margin-top: 1.25em;
 }
 
 .scrnshot {
@@ -42,6 +44,7 @@
 
 .scrnshot-mob {
   width: 35%;
+  margin: 5% 25%;
 }
 
 @media(max-width: 767px) {
@@ -49,7 +52,7 @@
     position: fixed;
     top: 2.5%;
     left: 0%;
-    padding: 0.1em 0.5em;
+    z-index: 100;
   }
   .scrnshot {
     width: 100%;

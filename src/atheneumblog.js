@@ -5,10 +5,8 @@ class AtheneumBlog extends React.Component {
     return(
       <div className="container">
         <div className="row">
-          <div className="col-1">
-            <a href="/projects" className="back-btn"><i className="fas fa-arrow-circle-left"></i></a>
-          </div>
-          <div className="col-11">
+          <a href="/projects" className="back-btn"><i className="fas fa-arrow-circle-left"></i></a>
+          <div className="col-11 offset-md-1">
             <h1 className="blog-title">Atheneum</h1>
             <p className="blog-subtitle">Find local teachers for anything you want to learn</p>
             <h3 className="subheader">Quick Summary</h3>

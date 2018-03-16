@@ -1,5 +1,6 @@
 import React from 'react';
 import Navbar from './navbar';
+import Footer from './footer';
 
 class Contact extends React.Component {
   render() {
@@ -7,11 +8,11 @@ class Contact extends React.Component {
       <div>
         <Navbar active={"contact"}/>
         <div className="container-fluid">
-          <div className="row">
-            <div className="col-12 col-sm-6 margin-vertical-xl">
+          <div className="row" style={{marginTop: "7.5em"}}>
+            <div className="col-12 col-sm-6">
               <img className="img-fluid" src="https://i.redd.it/yn54xv913yuy.jpg"/>
             </div>
-            <div className="col-12 col-sm-6" style={{marginTop: "12.5em"}}>
+            <div className="col-12 col-sm-6" style={{padding:"0 0.75em"}}>
               <h3 className="subheader">About me</h3>
               <p className="blog-body">
                 Hi there, my name is Lee. I was born in St. John's, Newfoundland, but raised in Calgary, Alberta. I've made some great friends and some equally great memories along the way. These days, I'm somewhere between the two cities, trying to get a degree in Computer Engineering at the University of Waterloo. 🇨🇦 🇨🇦 🇨🇦
@@ -24,6 +25,7 @@ class Contact extends React.Component {
             </div>
           </div>
         </div>
+        <Footer/>
       </div>
     )
   }

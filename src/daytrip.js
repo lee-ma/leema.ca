@@ -28,19 +28,17 @@ class DayTrip extends React.Component {
               <p className="blog-body">
                 After building the dashboard, I started off with the BMI calculator. This was the simplest page to create, and exercised an algorithm that was just basic math, inputting weight and height and then spitting out the user’s BMI, providing a table to show them the benchmarks for BMI values.
               </p>
-              <p className="blog-body">After that I created each individual form in the same manner, using pngs exported from Figma for most of the components on the screen (Yikes!). </p>
-              <img className="scrnshot" src="./assets/atheneum-pics/otherprofile.png"/>
+              <p className="blog-body">After that I created each individual form in the same manner, using pngs exported from Figma for most of the components on the screen (Not a good idea at all). </p>
+              <img className="scrnshot-mob" src="./assets/daytrip-pics/form.png"/>
               <p className="blog-body">
                 Grabbing the information from the form to put onto Firebase was a fairly straightforward process. I wrote Java classes to store the information from the form in an object. The information from the EditText components would get saved in a new object, which would get pushed to a user’s Firebase reference saved under their uid.
               </p>
               <p className="blog-body">The goal one below was the one I started with cause it was the least information to account for. Just a name and a description.</p>
-              <p className="blog-body">For the search I used simple text indexing in Mongoose to find search terms in the title and body of listings and return the ones that matched. This was a fairly elementary implementation of search, but for Atheneum, it was good enough to fill the search functionality. In my future projects, I will definitely look into trying to implement a search algorithm probably based on ranking.</p>
-              <img className="scrnshot" src="./assets/daytrip-pics/form.png"/>
               <p className="blog-body">
                 The most difficult part of this app was definitely creating the list of items to display. I used Java ArrayLists to store the information, and then set a value event listener on the user’s Firebase instance. This would grab data snapshots from Firebase add them to the List, using an ArrayAdapter class. The ArrayAdapter class would populate the Layout of each card using a Java Inflater to populate the Activity.
               </p>
               <p className="blog-body">
-                This whole process was quite a lot to take in for me to take in, and I spent a very long time trying to figure out how everything worked. After spending close to a week trying to figure out how to get the list to work, all I had left to do was duplicate the process for the remaining pages and then create the weather portion of the app.
+                This whole process was quite a lot to take in for me to take in, and I spent a very long time trying to figure out how everything worked. After spending a bit trying to figure out how to get the list to work, all I had left to do was duplicate the process for the remaining pages and then create the weather portion of the app.
               </p>
               <p className="blog-body">The weather portion of the app was built using the DarkSky weather API and passing in latitude and longitude data as parameters. Using an Async HTTP call library (<a href="http://loopj.com/android-async-http/">http://loopj.com/android-async-http/</a>), I got information from DarkSky in JSON format, and converted to Strings to display to the user their current temperature and conditions.</p>
               <h3 className="subheader"> Conclusion</h3>
