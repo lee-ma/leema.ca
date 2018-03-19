@@ -39,13 +39,6 @@ class AtheneumBlog extends React.Component {
               <img className="scrnshot" src="./assets/atheneum-pics/login.png"/>
               <h3 className="subheader">Conclusion</h3>
               <p className="blog-body">I think that I made fairly large strides from my last project (Who’s Right) with Atheneum. I created a more complex front-end that displayed larger amounts of information effectively, and implemented more features for the website as a whole. Overall, I was very happy with the way it turned out, and I learned a lot along the way.</p>
-              <p className="blog-body">However, I like to end my projects with reflection on what I want to improve for next time. Some of the things that I would like to do are:</p>
-              <ol className="reflection">
-                <li>Creating a better search algorithm to help users find more relevant results. </li>
-                <li>Implement a better way to show large amounts of posts in a dashboard, such as infinite scrolling or a featured section</li>
-                <li>Email verification to make accounts more secure, and create more user trust</li>
-                <li>Become better at designing intuitive and beautiful user interfaces</li>
-              </ol>
               <span className="blog-ender">
                 A live example of this project can be found at: <a href="http://atheneumtutors.info">http://atheneumtutors.info</a>. Unfortunately, my github repo for this project is private due to me accidentally committing my amazon keys early on in the project (Big whoops). If you would like to discuss anything you’ve read with me, feel free to send me an email to <a href="mailto:lee.ma@uwaterloo.ca">lee.ma@uwaterloo.ca</a>.
               </span>

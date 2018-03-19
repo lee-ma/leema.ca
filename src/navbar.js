@@ -1,4 +1,5 @@
 import React from 'react';
+import pdf from './files/leemaresume.pdf'
 
 class Navbar extends React.Component {
   constructor(props){
@@ -38,7 +39,7 @@ class Navbar extends React.Component {
             </li>
           </ul>
           <ul className="navbar-nav ml-auto" style={{paddingTop:"0.6em"}}>
-            <a className="nav-item nav-resume" onMouseOver={this.mouseOver.bind(this)} onMouseOut = {this.mouseOut.bind(this)} href="./assets/leemaresume.pdf">
+            <a className="nav-item nav-resume" onMouseOver={this.mouseOver.bind(this)} onMouseOut = {this.mouseOut.bind(this)} target="_blank" href={pdf}>
               <i className="fas fa-file-alt hover-hidden"></i><i className="fas fa-arrow-alt-circle-down hover-show"></i>
               {
                 !this.state.hover

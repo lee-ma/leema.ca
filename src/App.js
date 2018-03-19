@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { TransitionGroup, CSSTransition } from 'react-transition-group'
 import {BrowserRouter, Switch, Route} from 'react-router-dom';
 
 import Navbar from './navbar';
@@ -11,6 +10,7 @@ import Gallery from './gallery';
 import WhosRight from './whosrightblog';
 import DayTrip from './daytrip';
 import Contact from './contact';
+import pdf from './files/leemaresume.pdf';
 
 class App extends React.Component{
   render() {
