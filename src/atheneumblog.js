@@ -40,7 +40,7 @@ class AtheneumBlog extends React.Component {
               <h3 className="subheader">Conclusion</h3>
               <p className="blog-body">I think that I made fairly large strides from my last project (Who’s Right) with Atheneum. I created a more complex front-end that displayed larger amounts of information effectively, and implemented more features for the website as a whole. Overall, I was very happy with the way it turned out, and I learned a lot along the way.</p>
               <span className="blog-ender">
-                A live example of this project can be found at: <a href="http://atheneumtutors.info">http://atheneumtutors.info</a>. Unfortunately, my github repo for this project is private due to me accidentally committing my amazon keys early on in the project (Big whoops). If you would like to discuss anything you’ve read with me, feel free to send me an email to <a href="mailto:lee.ma@uwaterloo.ca">lee.ma@uwaterloo.ca</a>.
+                A live example of this project can be found at: <a href="http://www.atheneumtutors.info">http://www.atheneumtutors.info</a>. Unfortunately, my github repo for this project is private due to me accidentally committing my amazon keys early on in the project (Big whoops). If you would like to discuss anything you’ve read with me, feel free to send me an email to <a href="mailto:lee.ma@uwaterloo.ca">lee.ma@uwaterloo.ca</a>.
               </span>
             </div>
           </div>
