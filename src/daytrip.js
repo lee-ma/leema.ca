@@ -16,7 +16,7 @@ class DayTrip extends React.Component {
               Daytrip is a mobile app I built in Android Studio using Java. I had been playing around with building Android apps for a little bit, creating small apps like tic tac toe, a drum soundboard, and a bitcoin price tracker. I decided I wanted to try to create something with my own database using Firebase and create a multi-page app that might help me track my daily activities.
             </p>
             <p className="blog-body">
-              Starting this app, trying to create my own components and buttons was challenging. I used pngs for my button images, which really fell apart when the screen size wasn’t exactly the size I was using in my emulator. The UI I came up with was also not the most intuitive. Despite all this, I was pretty proud of Daytrip, as it was the first real piece of software I had built in my life.
+              Starting this app, trying to create my own components and buttons was challenging. I used pngs exported from Figma for my button images, which really fell apart when the screen size wasn’t exactly the size I was using in my emulator. The UI I came up with was also not the most intuitive. Despite all this, I was pretty proud of Daytrip, as it was the first real piece of software I had built in my life.
             </p>
             <p className="blog-body">
               Looking back at it now, I learned so much from building Daytrip, and had a really good time seeing an idea I had come to life. It’s fun to see how much I’ve grown since that time.
