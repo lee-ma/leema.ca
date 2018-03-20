@@ -49,9 +49,9 @@ class DayTrip extends React.Component {
                 I’m taking a break from Android development for a while to learn web development, but I will definitely be looking to get back in it some time soon. Hopefully, I’ll be able to apply a lot of the things I learned from this experience and my web dev experience to create a really kick-ass app next time.
               </p>
             </div>
-            <span className="blog-ender">
+            <p className="blog-ender">
               A live example of this project can be found <a href="https://play.google.com/store/apps/details?id=leema.com.daytrip1&hl=en">on Google play</a>. My repo for this project is also public <a href="https://github.com/LeeMa9321/daytripandroid">on my Github</a>. If you would like to discuss anything you’ve read with me, feel free to send me an email to <a href="mailto:lee.ma@uwaterloo.ca">lee.ma@uwaterloo.ca</a>.
-            </span>
+            </p>
           </div>
         </div>
       </div>

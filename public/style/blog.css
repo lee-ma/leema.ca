@@ -96,7 +96,7 @@
 }
 
 @media(max-width: 767px) {
-  .thumbnail: {
+  .thumbnail {
     width: 375px;
   }
 

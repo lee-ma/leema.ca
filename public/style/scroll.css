@@ -39,8 +39,8 @@
 }
 
 .mask {
-  padding-top: 5em;
-  height: 25.3em;
+  padding-top: 12vh;
+  height: 41.4vh;
   text-align: center;
   width: inherit;
   opacity: 0;
@@ -50,19 +50,9 @@
   animation-name: fadeInOpacity;
   animation-iteration-count: 1;
   animation-timing-function: ease-in;
-  animation-duration: 0.1s;
+  animation-duration: 0.175s;
   opacity: 1;
   background-color: rgba(0,0,0,0.6);
-}
-
-.mask-header {
-  font-family: "Open Sans", sans-serif;
-  font-weight: 400;
-  text-align: right;
-  margin-bottom: 0.5em;
-  color: #ffffff;
-  padding-right: 0.5em;
-  text-decoration: none;
 }
 
 ul {

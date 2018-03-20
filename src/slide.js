@@ -7,12 +7,11 @@ class Slide extends React.Component {
         <div className="image" style={{background: `url(${this.props.image}) no-repeat center`}}>
           <a href={`${this.props.post}`} style={{textDecoration: "none"}}>
             <div className="mask">
-              <h1 className="mask-header">{this.props.title}</h1>
               {
                 !this.props.comingsoon
                 ?
-                <div style={{float: "right"}}>
-                  <ul style={{textAlign: "right", marginRight: "0.75em"}}>
+                <div style={{float: "left"}}>
+                  <ul style={{textAlign: "left", marginRight: "0.75em"}}>
                     <li style={{marginBottom: "2em"}}><a href={`${this.props.post}`} className="slide-links">Read more</a></li>
                     {
                       !this.props.live
@@ -32,7 +31,7 @@ class Slide extends React.Component {
                   </ul>
                 </div>
                 :
-                <div><h4 href="#" style={{color: "#bcbcbc", textAlign: "right", marginRight: "1.5em"}}>Coming Soon</h4></div>
+                <div><h4 href="#" style={{color: "#bcbcbc", textAlign: "left", marginLeft: "1.5em"}}>Coming Soon</h4></div>
               }
             </div>
           </a>

@@ -29,6 +29,7 @@ class Gallery extends React.Component {
               <img className="img-fluid" src="./assets/gallery/lobsters.jpg"/>
               <img className="img-fluid" src="./assets/gallery/ilybtc.jpg"/>
               <img className="img-fluid" src="./assets/gallery/washington.jpg"/>
+              <img className="img-fluid" src="./assets/gallery/skiing.jpg"/>
             </div>
           </div>
         </div>
