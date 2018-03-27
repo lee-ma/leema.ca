@@ -6,6 +6,7 @@
 
 .blog-subtitle {
   color: #757575;
+  font-size: 18px;
 }
 
 .back-btn {
@@ -26,7 +27,7 @@
 
 .blog-body {
   font-family: "Lora", serif;
-  font-size: 16px;
+  font-size: 18px;
   max-width: 90ch;
   overflow: hidden;
 }
