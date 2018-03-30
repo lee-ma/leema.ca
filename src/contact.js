@@ -5,12 +5,12 @@ import Footer from './footer';
 class Contact extends React.Component {
   render() {
     return(
-      <div>
+      <div className="fadein">
         <Navbar active={"contact"}/>
         <div className="container-fluid">
           <div className="row" style={{marginTop: "7.5em"}}>
             <div className="col-12 col-sm-6">
-              <img className="img-fluid" src="https://i.redd.it/yn54xv913yuy.jpg"/>
+              <img className="img-fluid fadein-img" src="https://i.redd.it/yn54xv913yuy.jpg"/>
             </div>
             <div className="col-12 col-sm-6" style={{padding:"0 0.75em"}}>
               <h3 className="subheader">About me</h3>

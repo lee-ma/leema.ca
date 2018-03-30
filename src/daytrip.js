@@ -3,7 +3,7 @@ import React from 'react';
 class DayTrip extends React.Component {
   render() {
     return(
-      <div className="container">
+      <div className="container fadein">
         <div className="row">
           <div className="col-1">
             <a href="/projects" className="back-btn"><i className="fas fa-arrow-circle-left"></i></a>

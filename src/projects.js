@@ -7,16 +7,9 @@ import Navbar from './navbar';
 import Footer from './footer';
 
 class Projects extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-
-    }
-  }
-
   render() {
     return (
-      <div className={`${this.state.className}`}>
+      <div className="fadein">
         <Navbar active={"projects"}/>
         <div className="container-fluid" style={{marginTop: "10em"}}>
           <div className="row">

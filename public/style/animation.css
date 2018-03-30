@@ -1,26 +1,25 @@
-.fade-enter {
-  opacity: 0.01;
+.fadein {
+    -webkit-animation: fadein 0.5s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 0.5s; /* Firefox < 16 */
+        -ms-animation: fadein 0.5s; /* Internet Explorer */
+         -o-animation: fadein 0.5s; /* Opera < 12.1 */
+            animation: fadein 0.5s;
 }
 
-.fade-enter.fade-enter-active {
-  opacity: 1;
-  transition: opacity 1000ms ease-in;
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
 }
 
-.fade-exit {
-  opacity: 1;
+.fadein-img {
+  -webkit-animation: fadein-img 2s; /* Safari, Chrome and Opera > 12.1 */
+     -moz-animation: fadein-img 2s; /* Firefox < 16 */
+      -ms-animation: fadein-img 2s; /* Internet Explorer */
+       -o-animation: fadein-img 2s; /* Opera < 12.1 */
+          animation: fadein-img 2s;
 }
 
-.fade-exit.fade-exit-active {
-  opacity: 0.01;
-  transition: opacity 800ms ease-in;
-}
-
-@keyframes fadeInOpacity {
-	0% {
-		opacity: 0;
-	}
-	100% {
-		opacity: 1;
-	}
+@keyframes fadein-img {
+    from { opacity: 0; }
+    to   { opacity: 1; }
 }

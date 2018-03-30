@@ -13,7 +13,7 @@ class Blog extends React.Component {
 
   render() {
     return (
-      <div>
+      <div className="fadein">
         <Navbar active={"blog"}/>
         <div className="container-fluid" style={{marginTop: "17.5em"}}>
           <h3>Coming soon...</h3>

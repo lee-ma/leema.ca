@@ -19,7 +19,7 @@ class LandingPage extends React.Component {
 
   render() {
     return (
-      <div>
+      <div className="fadein">
       <Navbar/>
         <div className="container landing-vertical-margin">
           <h1 className="font-lora">Lee Ma</h1>
