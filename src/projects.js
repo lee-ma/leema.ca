@@ -17,6 +17,7 @@ class Projects extends React.Component {
               <div className="mobile-full"><Slide image={"./assets/atheneum-banner.svg"} color={"#f5f5f5"} title="Atheneum" post="/atheneum" live="http://atheneumtutors.info" public={false}/></div>
               <div className="mobile-full"><Slide image={"./assets/whosright-banner.svg"} color={"#6a1b9a"} title="Who's Right" post="/whosright" public={true} github="https://github.com/LeeMa9321/whosrightapp"/></div>
               <div className="mobile-full"><Slide image={"../assets/daytrip-banner.svg"} color={"linear-gradient(to right, #00F29B,#02EE75)"} title="DayTrip" post="/daytrip" public={true} github="https://github.com/LeeMa9321/daytripandroid" live="https://play.google.com/store/apps/details?id=leema.com.daytrip1&hl=en"/></div>
+              <div className="mobile-full"><Slide image={"../assets/zephyr-banner.svg"} color={"#f5f5f5"} title="Zephyr" post="/zephyr" public={true} github="https://github.com/LeeMa9321/zephyr" live="http://lee-zephyr.herokuapp.com"/></div>
               <div className="mobile-full"><Slide image={"../assets/foodiy-banner.svg"} color={"#eeeeee"} title="FOODIY" comingsoon={true}/></div>
             </div>
           </div>

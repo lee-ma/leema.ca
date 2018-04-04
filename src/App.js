@@ -10,7 +10,7 @@ import Gallery from './gallery';
 import WhosRight from './whosrightblog';
 import DayTrip from './daytrip';
 import Contact from './contact';
-import pdf from './files/leemaresume.pdf';
+import Zephyr from './zephyrblog';
 
 class App extends React.Component{
   render() {
@@ -21,6 +21,7 @@ class App extends React.Component{
           <Route exact path="/atheneum" component={AtheneumBlog}/>
           <Route exact path="/whosright" component={WhosRight}/>
           <Route exact path="/daytrip" component={DayTrip}/>
+          <Route exact path="/zephyr" component={Zephyr}/>
           <Route exact path="/blog" component={Blog}/>
           <Route exact path="/gallery" component={Gallery}/>
           <Route exact path="/about" component={Contact} />
