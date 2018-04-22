@@ -35,7 +35,7 @@ class Navbar extends React.Component {
               <a className={this.props.active === "gallery" ? "nav-link active" : "nav-link"} href="/gallery">Gallery</a>
             </li>
             <li className="nav-item">
-              <a className={this.props.active === "contact" ? "nav-link active" : "nav-link"} href="/about">About</a>
+              <a className={this.props.active === "contact" ? "nav-link active" : "nav-link"} href="/about">About Me</a>
             </li>
           </ul>
           <ul className="navbar-nav ml-auto" style={{paddingTop:"0.6em"}}>

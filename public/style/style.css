@@ -68,7 +68,7 @@ a {
   padding-left: 0.25em;
 }
 
-.resume-btn {
+.proj-btn {
   font-family: 'Open Sans', sans-serif;
   font-weight: 600;
   font-size: 2em;
@@ -81,7 +81,7 @@ a {
   transition: 0.2s;
 }
 
-.resume-btn:hover {
+.proj-btn:hover {
   text-decoration: none;
   background-color: #373737;
 }
