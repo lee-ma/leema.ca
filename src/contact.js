@@ -25,7 +25,9 @@ class Contact extends React.Component {
             </div>
           </div>
         </div>
-        <Footer/>
+        <div style={{marginTop: "16em"}}>
+          <Footer/>
+        </div>
       </div>
     )
   }
