@@ -15,6 +15,18 @@
   color: #00BFB2;
 }
 
+.landing-footer {
+  position: absolute;
+  right: 0%;
+  bottom: 0%;
+}
+
+.contact-footer {
+  position: absolute;
+  right: 0%;
+  bottom: 0%;
+}
+
 @media(max-width: 767px){
   .footer {
     margin-top: 1em;
@@ -23,6 +35,10 @@
 
   .col-12 {
     padding: 0;
+  }
+
+  .contact-footer {
+    position: relative;
   }
 }
 

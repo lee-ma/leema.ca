@@ -39,7 +39,7 @@ class LandingPage extends React.Component {
             </a>
           </div>
         </div>
-        <div style={{marginTop: "28.5em"}}>
+        <div className="landing-footer">
           <Footer/>
         </div>
       </div>

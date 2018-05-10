@@ -26,7 +26,7 @@ class Blog extends React.Component {
             </div>
           </div> */}
         </div>
-        <div style={{marginTop: "37.5em"}}>
+        <div className="landing-footer">
           <Footer/>
         </div>
       </div>
