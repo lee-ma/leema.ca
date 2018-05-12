@@ -3,7 +3,11 @@
     <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
     <title>Artboard</title>
     <desc>Created with Sketch.</desc>
-    <defs></defs>
+    <defs>
+      <style>
+        @import url('https://fonts.googleapis.com/css?family=Yellowtail');
+      </style>
+    </defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="Artboard">
             <g id="Group" transform="translate(379.000000, 85.000000)" fill="#F5F5F5" font-weight="normal">
