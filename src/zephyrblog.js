@@ -23,7 +23,7 @@ class ZephyrBlog extends React.Component {
               </p>
               <img className="scrnshot" src="./assets/zephyr-pics/landing.png"/>
               <p className="blog-body">
-                After that, I went to create the forms for each button. For the accomplishments, I thought I wanted to be able to track three main things that happened during my day. I created the forms with Redux Form to easily handle inputs, saving some time not having to handle React Component states myself.
+                After that, I went to create the forms for each button. For the accomplishments, I thought I wanted to be able to track three main things that happened during my day. I created the forms with Redux Form to easily handle inputs, saving some time letting ReduxForm handle the form state.
               </p>
               <img className="scrnshot" src="./assets/zephyr-pics/form.png"/>
               <p className="blog-body">
