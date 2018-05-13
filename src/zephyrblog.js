@@ -29,7 +29,7 @@ class ZephyrBlog extends React.Component {
               <p className="blog-body">
                 For the past entries, I kept with the minimal approach. It is a simple page with just the header of the past entries, the date and then pretty much exactly what the user wrote, separated by a horizontal rule.
               </p>
-              <img className="scrnshot" src="./assets/zephyr-pics/form.png"/>
+              <img className="scrnshot" src="./assets/zephyr-pics/pastlogs.png"/>
               <p className="blog-body">
                 I decided to put some fade transitions on Zephyr, and I found that it made the experience more enjoyable because it just makes the website feel more refined. This was something I overlooked in my previous projects, but is definitely something I will consider going forward from now on. However, I'll have to make sure I don't go overboard with it!
               </p>
