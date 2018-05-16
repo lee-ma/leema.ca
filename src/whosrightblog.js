@@ -24,7 +24,7 @@ class WhosRight extends React.Component {
               <img className="scrnshot" src="./assets/whosright-pics/newform.png"/>
               <p className="blog-body">After finishing the post components, I moved onto creating the user dashboard, which showed the posts that the user posted and the posts they voted on, in case they ever wanted to come back to the posts. This was much of the same, just grabbing all the post ids from the user’s database object, then populating them with Mongoose.</p>
               <img className="scrnshot" src="./assets/whosright-pics/dash.png"/>
-              <p className="blog-body">For authentication I decided to only implement social authentication through Facebook and Google. I thought it would be much easier and securer for the users to simply use an existing social media account for a fun social app like this.</p>
+              <p className="blog-body">For authentication I decided to only implement social authentication through Facebook and Google. I thought it would be much easier and more secure for the users to simply use an existing social media account for a fun social app like this.</p>
             </div>
             <h3 className="subheader">Conclusion</h3>
             <p className="blog-body">Who’s Right was one of the first websites I had created using a React and Redux front-end. Before I had done a few basic websites using Express, Node.js, and MongoDB with Embedded Javascript (EJS). Using React with Redux was awesome for creating the reusable components like the comments for this site, as well as handling states to determine which components to render. I learned a lot building this site, and a good idea of the directions I need to grow.</p>
