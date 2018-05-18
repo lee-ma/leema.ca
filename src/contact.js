@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from './navbar';
 import Footer from './footer';
+import GalleryImage from './galleryimg';
 
 class Contact extends React.Component {
   render() {
@@ -10,7 +11,7 @@ class Contact extends React.Component {
         <div className="container-fluid">
           <div className="row" style={{marginTop: "7.5em"}}>
             <div className="col-12 col-sm-6">
-              <img className="img-fluid fadein-img" src="https://i.redd.it/yn54xv913yuy.jpg"/>
+              <GalleryImage loadingImg="./assets/gallery/compressed/calgary-min.jpg" hdImg="./assets/gallery/calgary.jpg"/>
             </div>
             <div className="col-12 col-sm-6" style={{padding:"0 0.75em"}}>
               <h3 className="subheader">About me</h3>

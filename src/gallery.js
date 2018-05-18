@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from './navbar';
 import Footer from './footer';
+import GalleryImage from './galleryimg';
 
 class Gallery extends React.Component {
   render() {
@@ -10,26 +11,26 @@ class Gallery extends React.Component {
         <div className="container-fluid" style={{textAlign: "center"}}>
           <div className="row gal-row" style={{marginTop: "7.5em"}}>
             <div className="col-12 col-sm-4">
-              <img className="img-fluid fadein-img" src="./assets/gallery/raps.jpg"/>
-              <img className="img-fluid fadein-img" src="./assets/gallery/nfl.jpg"/>
-              <img className="img-fluid fadein-img" src="./assets/gallery/forest.jpg"/>
-              <img className="img-fluid fadein-img" src="./assets/gallery/la1.jpg"/>
-              <img className="img-fluid fadein-img" src="./assets/gallery/nfl_2.jpg"/>
+              <GalleryImage loadingImg="./assets/gallery/compressed/raps-min.jpg" hdImg="./assets/gallery/raps.jpg"/>
+              <GalleryImage loadingImg="./assets/gallery/compressed/nfl-min.jpg" hdImg="./assets/gallery/nfl.jpg"/>
+              <GalleryImage loadingImg="./assets/gallery/compressed/forest-min.jpg" hdImg="./assets/gallery/forest.jpg"/>
+              <GalleryImage loadingImg="./assets/gallery/compressed/la1-min.jpg" hdImg="./assets/gallery/la1.jpg"/>
+              <GalleryImage loadingImg="./assets/gallery/compressed/nfl_2-min.jpg" hdImg="./assets/gallery/nfl_2.jpg"/>
             </div>
             <div className="col-12 col-sm-4">
-              <img className="img-fluid fadein-img" src="./assets/gallery/mtns.jpg"/>
-              <img className="img-fluid fadein-img" src="./assets/gallery/nyc1.jpg"/>
-              <img className="img-fluid fadein-img" src="./assets/gallery/umbrellas.jpg"/>
-              <img className="img-fluid fadein-img" src="./assets/gallery/uclabear.jpg"/>
-              <img className="img-fluid fadein-img" src="./assets/gallery/la2.jpg"/>
+              <GalleryImage loadingImg="./assets/gallery/compressed/mtns-min.jpg" hdImg="./assets/gallery/mtns.jpg"/>
+              <GalleryImage loadingImg="./assets/gallery/compressed/nyc1-min.jpg" hdImg="./assets/gallery/nyc1.jpg"/>
+              <GalleryImage loadingImg="./assets/gallery/compressed/umbrellas-min.jpg" hdImg="./assets/gallery/umbrellas.jpg"/>
+              <GalleryImage loadingImg="./assets/gallery/compressed/uclabear-min.jpg" hdImg="./assets/gallery/uclabear.jpg"/>
+              <GalleryImage loadingImg="./assets/gallery/compressed/la2-min.jpg" hdImg="./assets/gallery/la2.jpg"/>
 
             </div>
             <div className="col-12 col-sm-4">
-              <img className="img-fluid fadein-img" src="./assets/gallery/magic.jpg"/>
-              <img className="img-fluid fadein-img" src="./assets/gallery/lobsters.jpg"/>
-              <img className="img-fluid fadein-img" src="./assets/gallery/ilybtc.jpg"/>
-              <img className="img-fluid fadein-img" src="./assets/gallery/washington.jpg"/>
-              <img className="img-fluid fadein-img" src="./assets/gallery/skiing.jpg"/>
+              <GalleryImage loadingImg="./assets/gallery/compressed/magic-min.jpg" hdImg="./assets/gallery/magic.jpg"/>
+              <GalleryImage loadingImg="./assets/gallery/compressed/lobsters-min.jpg" hdImg="./assets/gallery/lobsters.jpg"/>
+              <GalleryImage loadingImg="./assets/gallery/compressed/ilybtc-min.jpg" hdImg="./assets/gallery/ilybtc.jpg"/>
+              <GalleryImage loadingImg="./assets/gallery/compressed/washington-min.jpg" hdImg="./assets/gallery/washington.jpg"/>
+              <GalleryImage loadingImg="./assets/gallery/compressed/skiing-min.jpg" hdImg="./assets/gallery/skiing.jpg"/>
             </div>
           </div>
         </div>
