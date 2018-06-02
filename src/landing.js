@@ -34,7 +34,7 @@ class LandingPage extends React.Component {
                 ?
                 <span> Projects</span>
                 :
-                <span> Projects</span>
+                <span style={{paddingRight: "8px"}}> Projects</span>
               }
             </a>
           </div>
