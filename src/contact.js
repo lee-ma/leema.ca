@@ -21,7 +21,7 @@ class Contact extends React.Component {
               <h3 className="subheader" style={{marginTop: "2.5em"}}>Contact info</h3>
               <p><a className="contact-link" href="tel:+14039190588"><i className="fas fa-phone"></i> +1(403)-919-0588</a></p>
               <p><a className="contact-link" href="mailto:lee.ma@uwaterloo.ca"><i className="fas fa-envelope"></i> lee.ma@uwaterloo.ca</a></p>
-              <p><a className="contact-link" href="https://www.github.com/leema9321"><i className="fab fa-github"></i> https://github.com/leema9321</a></p>
+              <p><a className="contact-link" href="https://www.github.com/lee-ma"><i className="fab fa-github"></i> https://github.com/lee-ma</a></p>
               <p><a className="contact-link" href="https://www.linkedin.com/in/lma321"><i className="fab fa-linkedin"></i> https://linkedin.com/in/lma321</a></p>
             </div>
           </div>

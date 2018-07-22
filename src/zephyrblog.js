@@ -42,7 +42,7 @@ class ZephyrBlog extends React.Component {
                 I was quite happy with the way Zephyr turned out. Although I didn’t accomplish too much in my development skills, as it was essentially a basic journal app, I think that it was a great application of my growing design skills. I hope to keep improving my design skills in future projects.
               </p>
               <p className="blog-ender">
-                A live example of this project can be found at: <a href="http://lee-zephyr.herokuapp.com">http://lee-zephyr.herokuapp.com</a>. Check out the <a href="https://github.com/leema9321/zephyr">github repo here</a>. If you would like to discuss anything you’ve read with me, feel free to send me an email at lee.ma@uwaterloo.ca.
+                A live example of this project can be found at: <a href="http://lee-zephyr.herokuapp.com">http://lee-zephyr.herokuapp.com</a>. Check out the <a href="https://github.com/lee-ma/zephyr">github repo here</a>. If you would like to discuss anything you’ve read with me, feel free to send me an email at lee.ma@uwaterloo.ca.
               </p>
             </div>
           </div>

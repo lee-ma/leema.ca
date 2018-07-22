@@ -28,7 +28,7 @@ class WhosRight extends React.Component {
             </div>
             <h3 className="subheader">Conclusion</h3>
             <p className="blog-body">Who’s Right was one of the first websites I had created using a React and Redux front-end. Before I had done a few basic websites using Express, Node.js, and MongoDB with Embedded Javascript (EJS). Using React with Redux was awesome for creating the reusable components like the comments for this site, as well as handling states to determine which components to render. I learned a lot building this site, and a good idea of the directions I need to grow.</p>
-            <p className="blog-ender">I took down the live example of this site, but my github repo for this project is public and can be found <a href="https://github.com/LeeMa9321/whosright">on my Github</a>. If you would like to discuss anything you’ve read with me, feel free to send me an email to <a href="mailto:lee.ma@uwaterloo.ca">lee.ma@uwaterloo.ca</a>.</p>
+            <p className="blog-ender">I took down the live example of this site, but my github repo for this project is public and can be found <a href="https://github.com/lee-ma/whosright">on my Github</a>. If you would like to discuss anything you’ve read with me, feel free to send me an email to <a href="mailto:lee.ma@uwaterloo.ca">lee.ma@uwaterloo.ca</a>.</p>
           </div>
         </div>
       </div>

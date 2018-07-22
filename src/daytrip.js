@@ -50,7 +50,7 @@ class DayTrip extends React.Component {
               </p>
             </div>
             <p className="blog-ender">
-              A live example of this project can be found <a href="https://play.google.com/store/apps/details?id=leema.com.daytrip1&hl=en">on Google play</a>. My repo for this project is also public <a href="https://github.com/LeeMa9321/daytripandroid">on my Github</a>. If you would like to discuss anything you’ve read with me, feel free to send me an email to <a href="mailto:lee.ma@uwaterloo.ca">lee.ma@uwaterloo.ca</a>.
+              A live example of this project can be found <a href="https://play.google.com/store/apps/details?id=leema.com.daytrip1&hl=en">on Google play</a>. My repo for this project is also public <a href="https://github.com/lee-ma/daytripandroid">on my Github</a>. If you would like to discuss anything you’ve read with me, feel free to send me an email to <a href="mailto:lee.ma@uwaterloo.ca">lee.ma@uwaterloo.ca</a>.
             </p>
           </div>
         </div>
