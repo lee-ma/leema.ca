@@ -24,7 +24,7 @@ class LandingPage extends React.Component {
       <Navbar/>
         <div className="container landing-vertical-margin">
           <h1 className="font-lora">Lee Ma</h1>
-          <p>Hot sauce aficionado. NBA armchair coach. Aspiring software developer.</p>
+          <p>Ski slope dominator. Hot sauce aficionado. Aspiring software developer.</p>
           <div className="margin-vertical-md">
             <h2 style={{marginBottom: "1em", fontFamily: "Lora, serif"}}>Check out what I've built:</h2>
             <a className="proj-btn vertical-align" onMouseOver={this.mouseOver.bind(this)} onMouseOut = {this.mouseOut.bind(this)} href="/projects">
